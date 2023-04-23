@@ -151,14 +151,14 @@ if len(SA_MAIL) == 0:
 
 TGH_THUMB = environ.get('TGH_THUMB', '')
 if len(TGH_THUMB) == 0:
-    TGH_THUMB = 'https://graph.org/file/eadb981256ac76c08917e.jpg'
+    TGH_THUMB = 'https://telegra.ph/file/73727410cdf31016da19a.png'
 
 path = "Thumbnails/"
 if not ospath.isdir(path):
     mkdir(path)
 photo_dir = path + TGH_THUMB.split('/')[-1]
 urlretrieve(TGH_THUMB, photo_dir)
-Image.open(photo_dir).convert("RGB").save('Thumbnails/KPS.jpg', "JPEG")
+Image.open(photo_dir).convert("RGB").save('Thumbnails/MRxWZML.jpg', "JPEG")
 osremove(photo_dir)
 
 AUTHORIZED_CHATS = environ.get('AUTHORIZED_CHATS', '')
@@ -272,7 +272,7 @@ else:
 try:
     USER_SESSION_STRING = environ.get('USER_SESSION_STRING', '')
     if len(USER_SESSION_STRING) != 0:
-        premium_session = Client('KPS-Premium', api_id=TELEGRAM_API, api_hash=TELEGRAM_HASH, session_string=USER_SESSION_STRING, parse_mode=enums.ParseMode.HTML, no_updates=True)
+        premium_session = Client('MRxMIRROR-Premium', api_id=TELEGRAM_API, api_hash=TELEGRAM_HASH, session_string=USER_SESSION_STRING, parse_mode=enums.ParseMode.HTML, no_updates=True)
     if not premium_session:
         LOGGER.error("Cannot initialized User Session. Please regenerate USER_SESSION_STRING")
     else:
@@ -499,14 +499,14 @@ SHOW_LIMITS_IN_STATS = SHOW_LIMITS_IN_STATS.lower() == 'true'
 START_BTN1_NAME = environ.get('START_BTN1_NAME', '')
 START_BTN1_URL = environ.get('START_BTN1_URL', '')
 if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:
-    START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/Nanthakps'
+    START_BTN1_NAME = 'Master😎'
+    START_BTN1_URL = 'https://t.me/MR_X_MIRROR'
 
 START_BTN2_NAME = environ.get('START_BTN2_NAME', '')
 START_BTN2_URL = environ.get('START_BTN2_URL', '')
 if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:
-    START_BTN2_NAME = 'Support Channel'
-    START_BTN2_URL = 'https://t.me/KPSTorrent'
+    START_BTN2_NAME = 'Repo‼️'
+    START_BTN2_URL = 'https://t.me/MR_X_MIRROR'
 
 BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
 BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
@@ -537,7 +537,7 @@ SHORTENER_API = (SHORTENER_API.replace("'", '').replace('"', '').replace('[', ''
 
 GDTOT_CRYPT = environ.get('GDTOT_CRYPT', '')
 if len(GDTOT_CRYPT) == 0:
-    GDTOT_CRYPT = 'NTJwTk5rL0ZZMkJQZERpL1AzMGdVOFdYcXRJaHFUYlhhcjRwQzBLYnE5RT0%3D'
+    GDTOT_CRYPT = 'Y2FkU3lVRGc1dmN1b3cxM1ViaDJ0bUZTeGJvay9FMVA0YjZHdkdBVDFMTT0%3D'
 
 HUBDRIVE_CRYPT = environ.get('HUBDRIVE_CRYPT', '')
 if len(HUBDRIVE_CRYPT) == 0:
@@ -583,23 +583,23 @@ else:
 
 AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
 if len(AUTHOR_NAME) == 0:
-    AUTHOR_NAME = 'Nanthakps'
+    AUTHOR_NAME = 'MR X MIRROR'
 
 AUTHOR_URL = environ.get('AUTHOR_URL', '')
 if len(AUTHOR_URL) == 0:
-    AUTHOR_URL = 'https://telegram.me/Nanthakps'
+    AUTHOR_URL = 'https://telegram.me/MR_X_MIRROR'
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
-    TITLE_NAME = 'Leech Bot'
+    TITLE_NAME = 'MR X MIRROR'
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded By Leech Bot'
+    GD_INFO = 'Uploaded by @MROTTTamilXOffl'
 
 CREDIT_NAME = environ.get('CREDIT_NAME', '')
 if len(CREDIT_NAME) == 0:
-    CREDIT_NAME = '@Nanthakps'
+    CREDIT_NAME = '@MR_X_MIRROR'
 
 NAME_FONT = environ.get('NAME_FONT', '')
 if len(NAME_FONT) == 0:
@@ -613,14 +613,14 @@ FINISHED_PROGRESS_STR = environ.get('FINISHED_PROGRESS_STR', '')
 UN_FINISHED_PROGRESS_STR = environ.get('UN_FINISHED_PROGRESS_STR', '')
 MULTI_WORKING_PROGRESS_STR = environ.get('MULTI_WORKING_PROGRESS_STR', '')
 if len(FINISHED_PROGRESS_STR) == 0 or len(FINISHED_PROGRESS_STR) == 0 or len(MULTI_WORKING_PROGRESS_STR) == 0:
-    FINISHED_PROGRESS_STR = '●' # '■'
-    UN_FINISHED_PROGRESS_STR = '○' # '□'
-    MULTI_WORKING_PROGRESS_STR = '⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤'
+    FINISHED_PROGRESS_STR = '★' # '■'
+    UN_FINISHED_PROGRESS_STR = '☆' # '□'
+    MULTI_WORKING_PROGRESS_STR = '✪ ✪ ✪ ✪ ✪ ✪ ✪'
 MULTI_WORKING_PROGRESS_STR = (MULTI_WORKING_PROGRESS_STR.replace("'", '').replace('"', '').replace('[', '').replace(']', '').replace(",", "")).split(' ')
 
 if len(MULTI_WORKING_PROGRESS_STR) != 7:
     LOGGER.warning("Multi Progress doesn't contain 7 Symbols. Check Agian, Using Default for Now !")
-    MULTI_WORKING_PROGRESS_STR = '⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤'.split(' ')
+    MULTI_WORKING_PROGRESS_STR = '✪ ✪ ✪ ✪ ✪ ✪ ✪'.split(' ')
 
 IMAGE_URL = environ.get('IMAGE_URL', '')
 if len(IMAGE_URL) == 0:
@@ -674,7 +674,7 @@ if len(BASE_URL) == 0:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-   UPSTREAM_REPO = 'https://github.com/Tamilupdates/KPSML'
+   UPSTREAM_REPO = 'https://github.com/MR-X-MIRROR-BOTZ/MRxWZML'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
