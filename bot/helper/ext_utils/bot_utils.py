@@ -579,8 +579,6 @@ def change_filename(file_, user_id_, dirpath=None, up_path=None, all_edit=True, 
     cap_mono = ""
     cfont = config_dict['CAPTION_FONT'] if not FSTYLE else FSTYLE
     if CAPTION and all_edit:
-    if CAPTION.startswith('@'):
-        CAPTION = ' '.join(CAPTION.split()[1:])
         CAPTION = CAPTION.replace('\|', '%%').replace('\s', ' ')
         slit = CAPTION.split("|")
         cap_mono = slit[0].format(
