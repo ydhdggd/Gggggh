@@ -24,26 +24,26 @@ default_values = {'AUTO_DELETE_MESSAGE_DURATION': 30,
                   'FORCE_BOT_PM': False,
                   'UPDATE_PACKAGES': 'False',
                   'UPSTREAM_BRANCH': 'master',
-                  'UPSTREAM_REPO': 'https://github.com/Tamilupdates/KPSML',
+                  'UPSTREAM_REPO': 'https://github.com/MR-X-MIRROR-BOTZ/MRxWZML',
                   'STATUS_UPDATE_INTERVAL': 2,
                   'DOWNLOAD_DIR': '/usr/src/app/downloads/',
                   'TIME_GAP': -1,
                   'TG_SPLIT_SIZE': tgBotMaxFileSize,
-                  'TGH_THUMB': 'https://graph.org/file/eadb981256ac76c08917e.jpg',
-                  'START_BTN1_NAME': 'Master',
-                  'START_BTN1_URL': 'https://t.me/Nanthakps',
-                  'START_BTN2_NAME': 'Support Channel',
-                  'START_BTN2_URL': 'https://t.me/KPSTorrent',
-                  'AUTHOR_NAME': 'Nanthakps',
-                  'AUTHOR_URL': 'https://telegram.me/Nanthakps',
-                  'TITLE_NAME': 'Leech Bot',
-                  'GD_INFO': 'Uploaded By Leech Bot',
-                  'CREDIT_NAME': '@Nanthakps',
-                  'NAME_FONT': 'i',
+                  'TGH_THUMB': 'https://telegra.ph/file/73727410cdf31016da19a.png',
+                  'START_BTN1_NAME': 'Master😎',
+                  'START_BTN1_URL': 'https://t.me/MR_X_MIRROR',
+                  'START_BTN2_NAME': 'Repo‼️',
+                  'START_BTN2_URL': 'https://t.me/MR_X_MIRROR',
+                  'AUTHOR_NAME': 'MR X MIRROR',
+                  'AUTHOR_URL': 'https://telegram.me/MR_X_MIRROR',
+                  'TITLE_NAME': 'MR X MIRROR',
+                  'GD_INFO': 'Uploaded by @MR_X_MIRROR',
+                  'CREDIT_NAME': '@MR_X_MIRROR',
+                  'NAME_FONT': 'b',
                   'CAPTION_FONT': 'b',
-                  'FINISHED_PROGRESS_STR': '●',
-                  'UN_FINISHED_PROGRESS_STR': '○',
-                  'MULTI_WORKING_PROGRESS_STR': '⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤'.split(' '),
+                  'FINISHED_PROGRESS_STR': '★',
+                  'UN_FINISHED_PROGRESS_STR': '☆',
+                  'MULTI_WORKING_PROGRESS_STR': '✪ ✪ ✪ ✪ ✪ ✪ ✪'.split(' '),
                   'IMAGE_URL': 'https://graph.org/file/6b22ef7b8a733c5131d3f.jpg',
                   'TIMEZONE': 'Asia/Kolkata',
                   'LIST_MODE': "tg_direct",
@@ -120,7 +120,7 @@ def load_config():
 
     TGH_THUMB = environ.get('TGH_THUMB', '')
     if len(TGH_THUMB) == 0:
-        TGH_THUMB = 'https://graph.org/file/eadb981256ac76c08917e.jpg'
+        TGH_THUMB = 'https://telegra.ph/file/73727410cdf31016da19a.png'
 
     SA_MAIL = environ.get('SA_MAIL', '')
     if len(SA_MAIL) == 0:
@@ -412,7 +412,7 @@ def load_config():
 
     UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
     if len(UPSTREAM_REPO) == 0: 
-        UPSTREAM_REPO = 'https://github.com/Tamilupdates/KPSML'
+        UPSTREAM_REPO = 'https://github.com/MR-X-MIRROR-BOTZ/MRxWZML'
 
     UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
     if len(UPSTREAM_BRANCH) == 0:   
@@ -484,14 +484,14 @@ def load_config():
     START_BTN1_NAME = environ.get('START_BTN1_NAME', '')
     START_BTN1_URL = environ.get('START_BTN1_URL', '')
     if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:   
-        START_BTN1_NAME = 'Master'
-        START_BTN1_URL = 'https://t.me/Nanthakps'
+        START_BTN1_NAME = 'Master😎'
+    START_BTN1_URL = 'https://t.me/MR_X_MIRROR'
 
     START_BTN2_NAME = environ.get('START_BTN2_NAME', '')
     START_BTN2_URL = environ.get('START_BTN2_URL', '')
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:   
-        START_BTN2_NAME = 'Support Channel'
-        START_BTN2_URL = 'https://t.me/KPSTorrent'
+        START_BTN2_NAME = 'Repo‼️'
+    START_BTN2_URL = 'https://t.me/MR_X_MIRROR'
 
     BUTTON_FOUR_NAME = environ.get('BUTTON_FOUR_NAME', '')
     BUTTON_FOUR_URL = environ.get('BUTTON_FOUR_URL', '')
@@ -519,7 +519,7 @@ def load_config():
 
     GDTOT_CRYPT = environ.get('GDTOT_CRYPT', '')
     if len(GDTOT_CRYPT) == 0:
-        GDTOT_CRYPT = 'NTJwTk5rL0ZZMkJQZERpL1AzMGdVOFdYcXRJaHFUYlhhcjRwQzBLYnE5RT0%3D'
+        GDTOT_CRYPT = ''
 
     HUBDRIVE_CRYPT = environ.get('HUBDRIVE_CRYPT', '')
     if len(HUBDRIVE_CRYPT) == 0:
@@ -565,27 +565,27 @@ def load_config():
 
     AUTHOR_NAME = environ.get('AUTHOR_NAME', '')
     if len(AUTHOR_NAME) == 0:   
-        AUTHOR_NAME = 'Nanthakps'
+        AUTHOR_NAME = 'MR X MIRROR'
 
     AUTHOR_URL = environ.get('AUTHOR_URL', '')
     if len(AUTHOR_URL) == 0:    
-        AUTHOR_URL = 'https://telegram.me/Nanthakps'
+        AUTHOR_URL = 'https://telegram.me/MR_X_MIRROR'
 
     TITLE_NAME = environ.get('TITLE_NAME', '')
     if len(TITLE_NAME) == 0:    
-        TITLE_NAME = 'Leech Bot'
+        TITLE_NAME = 'MR X MIRROR'
 
     GD_INFO = environ.get('GD_INFO', '')
     if len(GD_INFO) == 0:   
-        GD_INFO = 'Uploaded By Leech Bot'
+        GD_INFO = 'Uploaded by @MR_X_MIRROR'
 
     CREDIT_NAME = environ.get('CREDIT_NAME', '')
     if len(CREDIT_NAME) == 0:   
-        CREDIT_NAME = '@Nanthakps'
+        CREDIT_NAME = '@MR_X_MIRROR'
 
     NAME_FONT = environ.get('NAME_FONT', '')
     if len(NAME_FONT) == 0: 
-        NAME_FONT = 'i'
+        NAME_FONT = 'b'
 
     CAPTION_FONT = environ.get('CAPTION_FONT', '')
     if len(CAPTION_FONT) == 0:  
@@ -630,9 +630,9 @@ def load_config():
     MULTI_WORKING_PROGRESS_STR = environ.get('MULTI_WORKING_PROGRESS_STR', '')
     MULTI_WORKING_PROGRESS_STR = MULTI_WORKING_PROGRESS_STR.split(' ')
     if len(FINISHED_PROGRESS_STR) == 0 or len(FINISHED_PROGRESS_STR) == 0 or len(MULTI_WORKING_PROGRESS_STR) == 0:
-        FINISHED_PROGRESS_STR = '●' # '■'
-        UN_FINISHED_PROGRESS_STR = '○' # '□'
-        MULTI_WORKING_PROGRESS_STR = '⬤ ⬤ ⬤ ⬤ ⬤ ⬤ ⬤'.split(' ')
+        FINISHED_PROGRESS_STR = '★' # '■'
+        UN_FINISHED_PROGRESS_STR = '☆' # '□'
+        MULTI_WORKING_PROGRESS_STR = '✪ ✪ ✪ ✪ ✪ ✪ ✪'.split(' ')
 
 
     IMAGE_URL = environ.get('IMAGE_URL', '')
