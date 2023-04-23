@@ -422,11 +422,11 @@ def main():
                     msg = f"😎 Restarted Successfully❗\n"
                 else:
                     msg = f"<b>Every Ends is a New Beginning! <b>\n"
-            msg = f"**Bot Got Re-Started 🚀**\n"
-            msg += f"**📅 DATE: {date}**\n"
-            msg += f"**⏰ TIME: {time}**\n"
-            msg += f"**🗺️ TIMEZONE: {timez}**\n"
-            msg += f"**Please Re-Download Your Tasks 🚶**"
+                msg = f"**Bot Got Re-Started 🚀**\n"
+                msg += f"**📅 DATE: {date}**\n"
+                msg += f"**⏰ TIME: {time}**\n"
+                msg += f"**🗺️ TIMEZONE: {timez}**\n"
+                msg += f"**Please Re-Download Your Tasks 🚶**"
 
                 for tag, links in data.items():
                     msg += f"\n{tag}: "
