@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://telegram.me/Nanthakps">
         <kbd>
-            <img width="180" src="https://graph.org/file/c2f574670f937de672ad0.jpg" alt="Nanthakps Logo">
+            <img width="180" src="https://telegra.ph/file/73727410cdf31016da19a.png" alt="Nanthakps Logo">
         </kbd>
     </a>
 </p>
