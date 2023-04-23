@@ -249,7 +249,7 @@ def get_readable_message():
                 globals()['COUNT'] -= STATUS_LIMIT
                 globals()['PAGE_NO'] -= 1
         for index, download in enumerate(list(download_dict.values())[COUNT:], start=1):
-            msg += f"<b>╭ <a href='{download.message.link}'>{download.status()}</a>: </b>"
+            msg += f"<b>═════〣 MR X MIRROR 〣═════</b>\n\n╭ <a href='{download.message.link}'>{download.status()}</a>: </b>"
             msg += f"<code>{escape(str(download.name()))}</code>"
             if download.status() not in [MirrorStatus.STATUS_SEEDING, MirrorStatus.STATUS_SPLITTING, MirrorStatus.STATUS_CONVERTING, MirrorStatus.STATUS_QUEUEDL, MirrorStatus.STATUS_QUEUEUP]:
                 if config_dict['EMOJI_THEME']:
@@ -579,6 +579,8 @@ def change_filename(file_, user_id_, dirpath=None, up_path=None, all_edit=True, 
     cap_mono = ""
     cfont = config_dict['CAPTION_FONT'] if not FSTYLE else FSTYLE
     if CAPTION and all_edit:
+    if CAPTION.startswith('@'):
+        CAPTION = ' '.join(CAPTION.split()[1:])
         CAPTION = CAPTION.replace('\|', '%%').replace('\s', ' ')
         slit = CAPTION.split("|")
         cap_mono = slit[0].format(
@@ -706,12 +708,17 @@ def bot_sys_stats():
         if stats.status() == MirrorStatus.STATUS_SPLITTING:
             num_split += 1
     return f"""
-🖥️ CPU: [ {t_core} Cores ] {cpuUsage}%
-🎮 RAM: [ {mem_t} ] {mem_p}%
-💾 Disk: [ {total} ] {disk}%
-🔺 Send: {sent}
+🖥️ CPU : [ {t_core} Cores ] {cpuUsage}%
+🎮 RAM : [ {mem_t} ] {mem_p}%
+💾 Disk : [ {total} ] {disk}%
+🔺 Send : {sent}
 🔻 Recv : {recv}
 ♻️ TOTAL : {tasks}
+
+DL : {num_active} | UL : {num_upload} | SEEDING : {num_seeding}
+ZIP : {num_zip} | UNZIP : {num_unzip} | SPLIT : {num_split}
+
+Made with ❤️ by {config_dict['CREDIT_NAME']}
 """
     return stats
 dispatcher.add_handler(
