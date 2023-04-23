@@ -421,12 +421,12 @@ def main():
                         chat_id, msg_id = map(int, f)
                     msg = f"😎 Restarted Successfully❗\n"
                 else:
-                    msg = f"<b>Every Ends is a New Beginning! <b>\n"
-                msg = f"**Bot Got Re-Started 🚀**\n"
-                msg += f"**📅 DATE: {date}**\n"
-                msg += f"**⏰ TIME: {time}**\n"
-                msg += f"**🗺️ TIMEZONE: {timez}**\n"
-                msg += f"**Please Re-Download Your Tasks 🚶**"
+                    msg = f"<b>Every Ends is a New Beginning!</b>\n"
+                    msg = f"<b>Bot Got Re-Started 🚀</b>\n"
+                    msg += f"<b>📅 DATE: {date}</b>\n"
+                    msg += f"<b>⏰ TIME: {time}</b>\n"
+                    msg += f"<b>🗺️ TIMEZONE: {timez}</b>\n"
+                    msg += f"<b>Please Re-Download Your Tasks 🚶</b>"
 
                 for tag, links in data.items():
                     msg += f"\n{tag}: "
@@ -461,12 +461,12 @@ def main():
         with open(".restartmsg") as f:
             chat_id, msg_id = map(int, f)
         try:
-            msg = f"<b>Every Ends is a New Beginning! <b>\n"
-            msg = f"**Bot Got Re-Started 🚀**\n"
-            msg += f"**📅 DATE: {date}**\n"
-            msg += f"**⏰ TIME: {time}**\n"
-            msg += f"**🗺️ TIMEZONE: {timez}**\n"
-            msg += f"**Please Re-Download Your Tasks 🚶**"
+            msg = f"<b>Every Ends is a New Beginning!</b>\n"
+            msg = f"<b>Bot Got Re-Started 🚀</b>\n"
+            msg += f"<b>📅 DATE: {date}</b>\n"
+            msg += f"<b>⏰ TIME: {time}</b>\n"
+            msg += f"<b>🗺️ TIMEZONE: {timez}</b>\n"
+            msg += f"<b>Please Re-Download Your Tasks 🚶</b>"
             bot.edit_message_text(msg, chat_id, msg_id)
         except Exception as e:
             LOGGER.info(e)
