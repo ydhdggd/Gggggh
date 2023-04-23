@@ -422,7 +422,7 @@ def main():
                     msg = f"😎 Restarted Successfully❗\n"
                 else:
                     msg = f"<b>Every Ends is a New Beginning!</b>\n"
-                    msg = f"<b>Bot Got Re-Started 🚀</b>\n"
+                    msg += f"<b>Bot Got Re-Started 🚀</b>\n"
                     msg += f"<b>📅 DATE: {date}</b>\n"
                     msg += f"<b>⏰ TIME: {time}</b>\n"
                     msg += f"<b>🗺️ TIMEZONE: {timez}</b>\n"
@@ -462,7 +462,7 @@ def main():
             chat_id, msg_id = map(int, f)
         try:
             msg = f"<b>Every Ends is a New Beginning!</b>\n"
-            msg = f"<b>Bot Got Re-Started 🚀</b>\n"
+            msg += f"<b>Bot Got Re-Started 🚀</b>\n"
             msg += f"<b>📅 DATE: {date}</b>\n"
             msg += f"<b>⏰ TIME: {time}</b>\n"
             msg += f"<b>🗺️ TIMEZONE: {timez}</b>\n"
