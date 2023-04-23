@@ -591,7 +591,7 @@ if len(AUTHOR_URL) == 0:
 
 TITLE_NAME = environ.get('TITLE_NAME', '')
 if len(TITLE_NAME) == 0:
-    TITLE_NAME = 'MR X MIRROR'
+    TITLE_NAME = 'MR X CLOUD'
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
