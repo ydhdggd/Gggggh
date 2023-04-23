@@ -537,7 +537,7 @@ SHORTENER_API = (SHORTENER_API.replace("'", '').replace('"', '').replace('[', ''
 
 GDTOT_CRYPT = environ.get('GDTOT_CRYPT', '')
 if len(GDTOT_CRYPT) == 0:
-    GDTOT_CRYPT = 'Y2FkU3lVRGc1dmN1b3cxM1ViaDJ0bUZTeGJvay9FMVA0YjZHdkdBVDFMTT0%3D'
+    GDTOT_CRYPT = ''
 
 HUBDRIVE_CRYPT = environ.get('HUBDRIVE_CRYPT', '')
 if len(HUBDRIVE_CRYPT) == 0:
@@ -595,7 +595,7 @@ if len(TITLE_NAME) == 0:
 
 GD_INFO = environ.get('GD_INFO', '')
 if len(GD_INFO) == 0:
-    GD_INFO = 'Uploaded by @MROTTTamilXOffl'
+    GD_INFO = 'Uploaded by @MR_X_MIRROR'
 
 CREDIT_NAME = environ.get('CREDIT_NAME', '')
 if len(CREDIT_NAME) == 0:
@@ -603,7 +603,7 @@ if len(CREDIT_NAME) == 0:
 
 NAME_FONT = environ.get('NAME_FONT', '')
 if len(NAME_FONT) == 0:
-    NAME_FONT = 'i'
+    NAME_FONT = 'b'
 
 CAPTION_FONT = environ.get('CAPTION_FONT', '')
 if len(CAPTION_FONT) == 0:
