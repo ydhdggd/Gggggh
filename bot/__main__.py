@@ -206,7 +206,7 @@ def log(update, context):
 
 
 help_string = '''
-<b><a href='https://telegram.me/Nanthakps'>Nanthakps</a></b> - The Ultimate Telegram Mirror-Leech Bot to Upload Your File & Link in Google Drive & Telegram\
+<b><a href='https://telegram.dog/MR_X_MIRROR'>MR X MIRROR</a></b> - The Ultimate Telegram Mirror-Leech Bot to Upload Your File & Link in Google Drive & Telegram\
 \n\n<b>Choose A Help Category:</b>
 '''
 
@@ -421,11 +421,12 @@ def main():
                         chat_id, msg_id = map(int, f)
                     msg = f"😎 Restarted Successfully❗\n"
                 else:
-                    msg = f"😎 Bot Restarted!\n"
-                msg += f"📅 DATE: {date}\n"
-                msg += f"⌚ TIME: {time}\n"
-                msg += f"🌐 TIMEZONE: {timez}\n"
-                msg += f"🤖 VERSION: {version}"
+                    msg = f"<b>Every Ends is a New Beginning! <b>\n"
+            msg = f"**Bot Got Re-Started 🚀**\n"
+            msg += f"**📅 DATE: {date}**\n"
+            msg += f"**⏰ TIME: {time}**\n"
+            msg += f"**🗺️ TIMEZONE: {timez}**\n"
+            msg += f"**Please Re-Download Your Tasks 🚶**"
 
                 for tag, links in data.items():
                     msg += f"\n{tag}: "
@@ -460,11 +461,12 @@ def main():
         with open(".restartmsg") as f:
             chat_id, msg_id = map(int, f)
         try:
-            msg = f"😎 Restarted Successfully❗\n"
-            msg += f"📅 DATE: {date}\n"
-            msg += f"⌚ TIME: {time}\n"
-            msg += f"🌐 TIMEZONE: {timez}\n"
-            msg += f"🤖 VERSION: {version}"            
+            msg = f"<b>Every Ends is a New Beginning! <b>\n"
+            msg = f"**Bot Got Re-Started 🚀**\n"
+            msg += f"**📅 DATE: {date}**\n"
+            msg += f"**⏰ TIME: {time}**\n"
+            msg += f"**🗺️ TIMEZONE: {timez}**\n"
+            msg += f"**Please Re-Download Your Tasks 🚶**"
             bot.edit_message_text(msg, chat_id, msg_id)
         except Exception as e:
             LOGGER.info(e)
