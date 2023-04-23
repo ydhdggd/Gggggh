@@ -79,7 +79,7 @@ Copyright (C) 2023 Tamilupdates
 <details>
     <summary><b>Click Here For Description</b></summary>
 
-|![](https://avatars.githubusercontent.com/u/116391685)|![](https://avatars.githubusercontent.com/u/113664541)|![](https://avatars.githubusercontent.com/u/77075674)|![](https://avatars.githubusercontent.com/u/94453305)|![](https://avatars.githubusercontent.com/u/56303690)|![](https://avatars.githubusercontent.com/u/91935990)|![](https://avatars.githubusercontent.com/u/80155750)|
+|![](https://avatars.githubusercontent.com/u/127676677)|![](https://avatars.githubusercontent.com/u/113664541)|![](https://avatars.githubusercontent.com/u/77075674)|![](https://avatars.githubusercontent.com/u/94453305)|![](https://avatars.githubusercontent.com/u/56303690)|![](https://avatars.githubusercontent.com/u/91935990)|![](https://avatars.githubusercontent.com/u/80155750)|
 |---|---|---|---|---|---|---|
 |[`MR-X-MIRROR-BOTZ`](https://github.com/MR-X-MIRROR-BOTZ)|[`CodeWithWeeb`](https://github.com/weebzone)|[`Anasty17`](https://github.com/anasty17)|[`Ajay Choudhary`](https://github.com/ajay0916) |[`Arshsisodiya`](https://github.com/arshsisodiya/helios-mirror) |[`ToxyTech`](https://github.com/dipeshpatil123)|[`MysterySD`](https://github.com/5MysterySD)|
 | `Me` Master | Add modules and fixes & many more|Base Repo|For suggestion & fixing| For there BOT_PM and LOG feature| For Task Limit| For Help and PIXIBAY Support|
