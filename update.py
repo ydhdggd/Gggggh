@@ -48,7 +48,7 @@ if UPDATE_PACKAGES.lower() == 'true':
     packages = [dist.project_name for dist in working_set]
     scall("pip install " + ' '.join(packages), shell=True)
 
-UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
+UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://github.com/MR-X-MIRROR-BOTZ/MRxWZML')
 if len(UPSTREAM_REPO) == 0:
    UPSTREAM_REPO = None
 
@@ -62,7 +62,7 @@ if UPSTREAM_REPO is not None:
 
     update = srun([f"git init -q \
                      && git config --global user.email doc.adhikari@gmail.com \
-                     && git config --global user.name KPSML \
+                     && git config --global user.name MRXMIRROR \
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
