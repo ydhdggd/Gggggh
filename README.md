@@ -57,7 +57,7 @@ Steps to Deploy the Bot to Run for Yourself
 [![](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ```text
-Copyright (C) 2023 Tamilupdates
+Copyright (C) 2023 MR-X-MIRROR-BOTZ
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -70,7 +70,7 @@ Copyright (C) 2023 Tamilupdates
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program. < https://github.com/Tamilupdates/KPSML/blob/master/LICENSE >.
+    along with this program. < https://github.com/MR-X-MIRROR-BOTZ/MRxWZML/blob/master/LICENSE >.
 ```
 
 ---
