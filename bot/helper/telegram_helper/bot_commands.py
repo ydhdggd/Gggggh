@@ -18,9 +18,9 @@ class _BotCommands:
         self.CancelAllCommand = getCommand(f'CANCEL_ALL_COMMAND', f'cancelall{CMD_SUFFIX}'), f'ca{CMD_SUFFIX}'
         self.ListCommand = getCommand(f'LIST_COMMAND', f'list{CMD_SUFFIX}'), f'ls{CMD_SUFFIX}'
         self.SearchCommand = getCommand('SEARCH_COMMAND', f'search{CMD_SUFFIX}')
-        self.PaidUsersCommand = getCommand('PAID_COMMAND', f'paid{CMD_SUFFIX}'), f'pd{CMD_INDEX}'
-        self.AddPaidCommand = getCommand('ADDPAID_COMMAND', f'addpaid{CMD_SUFFIX}'), f'apd{CMD_INDEX}'
-        self.RmPaidCommand = getCommand('RMPAID_COMMAND', f'rmpaid{CMD_SUFFIX}'), f'rpd{CMD_INDEX}'
+        self.PaidUsersCommand = getCommand('PAID_COMMAND', f'paid{CMD_SUFFIX}'), f'pd{CMD_SUFFIX}'
+        self.AddPaidCommand = getCommand('ADDPAID_COMMAND', f'addpaid{CMD_SUFFIX}'), f'apd{CMD_SUFFIX}'
+        self.RmPaidCommand = getCommand('RMPAID_COMMAND', f'rmpaid{CMD_SUFFIX}'), f'rpd{CMD_SUFFIX}'
         self.PreNameCommand = getCommand('PRENAME_COMMAND', f'prename{CMD_SUFFIX}'), f'pre{CMD_SUFFIX}'
         self.CaptionCommand = getCommand('CAPTION_COMMAND', f'caption{CMD_SUFFIX}'), f'cap{CMD_SUFFIX}'
         self.UserLogCommand = getCommand('DUMPID_COMMAND', f'dumpid{CMD_SUFFIX}')
