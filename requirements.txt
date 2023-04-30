@@ -42,3 +42,4 @@ waybackpy
 xattr
 yt-dlp
 wget
+mega
