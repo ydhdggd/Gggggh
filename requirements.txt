@@ -49,3 +49,4 @@ mutagen
 natsort
 pycryptodome>=3.9.6,<4.0.0
 pathlib==1.0.1
+git+https://github.com/XMYSTERlOUSX/mega.py
