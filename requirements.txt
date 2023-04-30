@@ -1,4 +1,5 @@
 mega.py
+mega
 aiohttp
 anytree
 aria2p
@@ -46,3 +47,5 @@ wget
 motor
 mutagen
 natsort
+pycryptodome>=3.9.6,<4.0.0
+pathlib==1.0.1
