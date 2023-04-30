@@ -1,4 +1,4 @@
-mega
+mega.py
 aiohttp
 anytree
 aria2p
@@ -43,4 +43,6 @@ waybackpy
 xattr
 yt-dlp
 wget
-
+motor
+mutagen
+natsort
