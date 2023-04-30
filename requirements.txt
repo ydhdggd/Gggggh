@@ -1,3 +1,4 @@
+mega
 aiohttp
 anytree
 aria2p
@@ -42,4 +43,4 @@ waybackpy
 xattr
 yt-dlp
 wget
-mega
+
