@@ -896,6 +896,20 @@ def aria2c_init():
 Thread(target=aria2c_init).start()
 sleep(1.5)
 
+aria2c_global = ['bt-max-open-files', 'download-result', 'keep-unfinished-download-result', 'log', 'log-level',
+                 'max-concurrent-downloads', 'max-download-result', 'max-overall-download-limit', 'save-session',
+                 'max-overall-upload-limit', 'optimize-concurrent-downloads', 'save-cookies', 'server-stat-of']
+
+if not aria2_options:
+    aria2_options = aria2.client.get_global_option()
+    del aria2_options['dir']
+else:
+    a2c_glo = {}
+    for op in aria2c_global:
+        if op in aria2_options:
+            a2c_glo[op] = aria2_options[op]
+    aria2.set_global_options(a2c_glo)
+
 qb_client = get_client()
 if not qbit_options:
     qbit_options = dict(qb_client.app_preferences())
