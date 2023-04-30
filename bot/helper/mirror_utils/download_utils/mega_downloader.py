@@ -2,7 +2,7 @@ from random import SystemRandom
 from string import ascii_letters, digits
 from os import makedirs
 from threading import Event
-from mega import (MegaApi, MegaListener, MegaRequest, MegaTransfer, MegaError)
+from mega import MegaApi, MegaError, MegaListener, MegaRequest, MegaTransfer
 
 from bot import LOGGER, download_dict, download_dict_lock, config_dict, \
                 user_data, OWNER_ID, non_queued_dl, non_queued_up, queued_dl, queue_dict_lock
