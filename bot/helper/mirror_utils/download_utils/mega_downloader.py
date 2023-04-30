@@ -1,7 +1,7 @@
 from random import SystemRandom
 from string import ascii_letters, digits
 from os import makedirs
-from threading import Event
+from asyncio import Event
 from mega import MegaApi, MegaError, MegaListener, MegaRequest, MegaTransfer
 
 from bot import LOGGER, download_dict, download_dict_lock, config_dict, \
